@@ -1,0 +1,282 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /*header start*/
+  
+  
+  .logo {
+    font-size: 22px;
+  }
+  .menu ul li a {
+       padding: 5px 0px !important;
+    }
+  .dp_menu{
+     min-width: 295px;
+      padding: 5px 5px;
+  
+  }
+   .dp_menu[data-bs-popper] {
+      top: 50pxpx;
+      left: 0px;
+      margin-top:0;
+   }
+   .dp_submit {
+      padding-left: 3px;
+    }
+    /*header end*/
+    /*slider start*/
+   .s_item {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      text-align: center;
+   }
+   .s_h2 {
+      font-size: 25px;
+   }
+   .s_p {
+      margin: 30px 0;
+      line-height: 24px;
+   }
+   .btn_common {
+      width: 51%;
+      height: 40px;
+      font-size: 15px;
+  }
+  .slider_button {
+        margin-right: 29px;
+       text-align: center;
+  }
+   .s_item span i {
+       margin-left: 10px;
+   }
+   /*slider end*/
+    /*welcome start*/
+   .wellcome {
+        padding-bottom: 60px;
+    }
+   .c_shap {
+       height: 22px;
+    }
+   .c_title h1 {
+          font-size: 25px;
+   }
+   .well_p {
+      margin-top: 22px;
+      line-height: 24px;
+   }
+   .s_service {
+        margin-top: 50px;
+        padding: 55px 13px 25px;
+   }
+   .s_icon {
+          margin: -74px auto 0;
+          width: 60px;
+   }
+   .s_icon i {
+      font-size: 50px;
+    }
+  .s_s_h2 {
+        margin: 20px 0 0;
+   }
+   .s_service hr {
+      margin: 13px auto;
+      width: 55px;
+   }
+   .s_s_p {
+      margin-bottom: 20px;
+      line-height: 24px;
+  }
+   /*welcome end*/
+   
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+      /*header start*/
+  .dp_menu {
+     min-width: 295px;
+    padding: 5px 5px;
+    
+  }
+  .logo {
+        font-size: 25px;
+   }
+   .menu ul li a {
+       padding: 5px 0px !important;
+    }
+    .menu ul li a {
+       padding: 5px 0px !important;
+    }
+    .dp_menu[data-bs-popper]{
+        top: 14px;
+       left: 215px;
+    
+    }
+    /*header end*/
+    /*slider start*/
+   .s_item {
+      margin-top: 80px;
+      margin-bottom: 80px;
+   }
+   .s_h2 {
+        font-size: 40px;
+   }
+   .s_p {
+      margin: 35px 0;
+      line-height: 24px;
+   }
+   .btn_common {
+      width: 31%;
+      height: 45px;
+  }
+   .s_item span i {
+       margin-left: 10px;
+   }
+   /*slider end*/
+    /*welcome start*/
+   .wellcome {
+        padding-bottom: 70px;
+    }
+   .c_shap {
+       height: 25px
+    }
+   .c_title h1 {
+        font-size: 25px;
+   }
+   .well_p {
+      margin-top: 25px;
+      line-height: 24px;
+   }
+   .s_service {
+        margin-top: 70px;
+        padding: 60px 12px 30px;
+   }
+   .s_icon {
+          margin: -79px auto 0;
+          width: 60px;
+   }
+   .s_icon i {
+      font-size: 50px;
+    }
+  .s_s_h2 {
+       margin: 25px 0 0;
+   }
+   .s_service hr {
+      margin: 13px auto;
+      width: 60px;
+   }
+   .s_s_p {
+      margin-bottom: 25px;
+      line-height: 24px;
+  }
+   /*welcome end*/
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   /*header start*/
+  .logo {
+    font-size: 25px;
+  }
+  .b_color{
+     background-color: black;
+  }
+  .menu ul li a {
+     margin-top: 8px;
+     padding: 0 0px !important;
+  }
+  
+  .dp_menu[data-bs-popper] {
+    top: -2px;
+    left: 294px;
+    margin-top:0;
+  }
+   /*header end*/
+   /*slider start*/
+   .s_item {
+      margin-top: 100px;
+      margin-bottom: 100px;
+   }
+   .s_h2 {
+       font-size: 45px;
+   }
+   .s_p {
+      margin: 35px 0;
+     line-height: 25px;
+   }
+   .btn_common {
+      width: 24%;
+      height: 40px;
+  }
+   .s_item span i {
+       margin-left: 10px;
+   }
+   /*slider end*/
+   /*wellcome start*/
+   .wellcome {
+        padding-bottom: 80px;
+    }
+   .c_shap {
+       height: 35px;
+    }
+   .c_title h1 {
+        font-size: 26px;
+   }
+   .well_p {
+        margin-top: 28px;
+        line-height: 27px;
+   }
+   .s_service {
+        margin-top: 85px;
+        padding: 60px 12px 30px;
+   }
+   .s_icon {
+      margin: -81px auto 0;
+      width: 65px;
+   }
+   .s_icon i {
+       font-size: 55px;
+    }
+  .s_s_h2 {
+       margin: 31px 0 0;
+   }
+   .s_s_p {
+      margin-bottom: 30px;
+      line-height: 25px;
+  }
+   /*wellcome end*/
+   
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*slider start*/
+  .s_h2 {
+         font-size: 47px;
+   }
+   .btn_common {
+       width: 31%;
+      height: 45px;
+    }
+   /*slider end*/
+   /*wellcome start*/
+   .s_service hr {
+       width: 55px;
+    }
+   /*wellcome end*/
+   
+
+}
+  /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+ /*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  /*slider start*/
+    .s_p{
+      font-size: 18px;
+    }
+   /*slider end*/
+   
+}
+   
+   
